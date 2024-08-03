@@ -64,3 +64,9 @@ section h2 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* deactiveがclass名に付くと、押せなくなる */
+.attack.deactive{
+  pointer-events: none;
+  opacity: .5;
+}
